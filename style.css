@@ -168,7 +168,9 @@ section {
     display: flex;
     justify-content: center;
     gap: 6rem;
-    height: 72vh;
+
+    /* is 72 better? */
+    height: 70vh;
 }
 
 .section__pic-container {
