@@ -16,8 +16,8 @@ html {
 }
 
 p {
-    /* color: rgb(85, 85, 85); */
-    color: rgb(176, 224, 230);
+    color: rgb(85, 85, 85);
+    /* color: rgb(176, 224, 230); */
 }
 
 /* TRANSITION */
@@ -147,3 +147,6 @@ a:hover {
 .hamburger-icon span:last-child {
     transform: none;
 }
+
+/* SECTIONS */
+
