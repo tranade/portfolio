@@ -348,8 +348,10 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 153);
+  /* border: rgb(53, 53, 53) 0.1rem solid; */
+  border: rgb(85, 183, 196) 0.1rem solid;
+  /* border-color: rgb(163, 163, 153); */
+  border-color: (85, 183, 196);
   text-align: center;
 }
 
