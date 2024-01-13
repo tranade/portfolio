@@ -178,11 +178,13 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    /* margin: 0; */
 }
 
 .section__text {
     align-self: center;
     text-align: center;
+    flex: 0.6;
 }
 
 .section__text p {
@@ -200,10 +202,39 @@ section {
     margin-bottom: 2rem;
 }
 
+/* new */
 .title {
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 3.2rem;
     text-align: center;
+
+    /* new */
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
 }
+
+.title::after {
+    content: "|";
+    animation: cursorBlink 0.7s infinite, cursorDisappear 0.7s forwards 1.5s;
+}
+  
+@keyframes cursorBlink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes cursorDisappear {
+    to {
+        opacity: 0;
+    }
+}
+
+  /* new end */
 
 #socials-container {
     display: flex;
