@@ -171,6 +171,7 @@ section {
 
     /* is 72 better? */
     height: 70vh;
+    margin-bottom: 4.5rem; 
 }
 
 .section__pic-container {
@@ -229,7 +230,10 @@ section {
 }
 
 @keyframes cursorDisappear {
-    to {
+    /* to {
+        opacity: 0;
+    } */
+    to { 
         opacity: 0;
     }
 }
