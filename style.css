@@ -17,7 +17,6 @@ html {
 
 p {
   color: rgb(85, 85, 85);
-  /* color: rgb(176, 224, 230); */
 }
 
 /* TRANSITION */
@@ -54,11 +53,9 @@ a {
 }
 
 a:hover {
-  /* color: grey; */
   color: rgb(85, 183, 196);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  /* text-decoration-color: rgb(181, 181, 181); */
   text-decoration-color: rgb(176, 224, 230);
 }
 
@@ -170,8 +167,6 @@ section {
   display: flex;
   justify-content: center;
   gap: 6rem;
-
-  /* is 72 better? */
   height: 70vh;
   margin-bottom: 4.5rem;
 }
@@ -181,7 +176,6 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-  /* margin: 0; */
 }
 
 .section__text {
@@ -201,17 +195,12 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  /* margin-bottom: 1rem; */
   margin-bottom: 2rem;
 }
 
-/* new */
 .title {
-  /* font-size: 3rem; */
   font-size: 3.2rem;
   text-align: center;
-
-  /* new */
   overflow: hidden;
   white-space: nowrap;
   margin: 0;
@@ -233,9 +222,6 @@ section {
 }
 
 @keyframes cursorDisappear {
-  /* to {
-        opacity: 0;
-    } */
   to {
     opacity: 0;
   }
@@ -275,7 +261,6 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  /* border: rgb(53, 53, 53) 0.1rem solid; */
   border: rgb(85, 183, 196) 0.1rem solid;
 }
 
@@ -286,7 +271,6 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  /* background: rgb(53, 53, 53); */
   background: rgb(85, 183, 196);
   color: white;
 }
@@ -318,8 +302,6 @@ section {
 }
 
 .about-details-container .about-containers {
-  /* gap: 2rem;
-  margin-bottom: 2rem; */
   margin-top: 0rem;
 }
 
@@ -352,28 +334,17 @@ section {
 .about-details-container .details-container {
   margin-top: 0rem;
   padding: 1rem;
-  /* flex: 1;
-  background: white;
-  border-radius: 2rem;
-  /* border: rgb(53, 53, 53) 0.1rem solid; */
-  /* border: rgb(85, 183, 196) 0.1rem solid;
-  /* border-color: rgb(163, 163, 153); */
-  /* border-color: (85, 183, 196);
-  text-align: center; */
 }
 
 
 
 .details-container {
   margin-top: 0rem;
-  /* margin-top: 5rem; */
   padding: 1.5rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
-  /* border: rgb(53, 53, 53) 0.1rem solid; */
   border: rgb(85, 183, 196) 0.1rem solid;
-  /* border-color: rgb(163, 163, 153); */
   border-color: (85, 183, 196);
   text-align: center;
 }
@@ -410,24 +381,6 @@ b a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-/* .exerience-details-container .details-container {
-  margin-top: 5rem;
-} */
-
-.experience-details-container .details-container {
-  /* margin-top: 1.5rem;
-  padding: 2rem; */
-  /* padding: 1.5rem;
-  flex: 1;
-  background: white;
-  border-radius: 2rem;
-  /* border: rgb(53, 53, 53) 0.1rem solid; */
-  /* border: rgb(85, 183, 196) 0.1rem solid;
-  /* border-color: rgb(163, 163, 153); */
-  /* border-color: (85, 183, 196);
-  text-align: center; */
 }
 
 .article-container {
