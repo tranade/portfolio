@@ -350,6 +350,7 @@ section {
 }
 
 .about-details-container .details-container {
+  margin-top: 0rem;
   padding: 1rem;
   /* flex: 1;
   background: white;
@@ -364,6 +365,7 @@ section {
 
 
 .details-container {
+  margin-top: 0rem;
   /* margin-top: 5rem; */
   padding: 1.5rem;
   flex: 1;
@@ -415,8 +417,8 @@ b a:hover {
 } */
 
 .experience-details-container .details-container {
-  margin-top: 1.5rem;
-  padding: 2rem;
+  /* margin-top: 1.5rem;
+  padding: 2rem; */
   /* padding: 1.5rem;
   flex: 1;
   background: white;
