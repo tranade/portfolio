@@ -49,7 +49,6 @@ nav {
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: white;
 }
 
 a:hover {
@@ -91,18 +90,18 @@ a:hover {
   width: 100%;
   height: 2px;
   background-color: black;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0%;
+  right: 0;
   background-color: white;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links a {
@@ -112,7 +111,7 @@ a:hover {
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-links li {
@@ -135,18 +134,6 @@ a:hover {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-.hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:nth-child(2) {
-  opacity: 1;
-}
-
-.hamburger-icon span:last-child {
-  transform: none;
-}
-
 /* SECTIONS */
 
 section {
@@ -159,6 +146,7 @@ section {
 
 .section-container {
   display: flex;
+  gap: 4rem; /* Moved this to a more appropriate location */
 }
 
 /* PROFILE SECTION */
@@ -227,7 +215,7 @@ section {
   }
 }
 
-/* new end */
+/* SOCIAL ICONS */
 
 #socials-container {
   display: flex;
@@ -291,10 +279,6 @@ section {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-container {
-  gap: 1rem;
-}
-
 /* ABOUT SECTION */
 
 #about {
@@ -302,7 +286,7 @@ section {
 }
 
 .about-details-container .about-containers {
-  margin-top: 0rem;
+  margin-top: 0;
 }
 
 .about-containers {
@@ -332,32 +316,18 @@ section {
 }
 
 .about-details-container .details-container {
-  margin-top: 0rem;
+  margin-top: 0;
   padding: 1rem;
 }
 
-
-
 .details-container {
-  margin-top: 0rem;
+  margin-top: 0;
   padding: 1.5rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(85, 183, 196) 0.1rem solid;
-  border-color: (85, 183, 196);
   text-align: center;
-}
-
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
@@ -377,7 +347,7 @@ b a:hover {
   margin-bottom: 2rem;
 }
 
-.exerience-details-container {
+.experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -395,7 +365,7 @@ b a:hover {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -444,7 +414,6 @@ article .icon {
   justify-content: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
